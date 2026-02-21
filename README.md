@@ -54,6 +54,8 @@ Welcome to cite our paper if you publish results based on our preprocessed datas
 
 ### Temporal Graphs
 
+### Signed Graphs
+
 ### Attributed Graphs
 
 | Name  | Type      | #nodes    | #edges | #attributes  | #labels | URL       | 
