@@ -139,8 +139,34 @@ Welcome to cite our paper if you publish results based on our preprocessed datas
 ```
 
 ## Text-Attributed Graphs
+| Name    |   \#nodes   |  \#edges  | \#labels |  Domain   |   Node/Edge Text | Task  |Source |
+|-------  |---------  |--------- |---------|---------|---------  |---------  |---------  |
+| ogbn-arxiv-TA | 169,343 | 1,166,243 | 40 | Academic | Node | Node Classification | [URL](https://github.com/sktsherlock/TAG-Benchmark) [Paper](https://papers.neurips.cc/paper_files/paper/2023/file/37d00f567a18b478065f1a91b95622a0-Paper-Datasets_and_Benchmarks.pdf) |
+|  Books-Children  |  76,875  |  1,554,578  |  24   |  E-Commerce   |   Node   |   Node Classification    | [URL](https://github.com/sktsherlock/TAG-Benchmark) [Paper](https://papers.neurips.cc/paper_files/paper/2023/file/37d00f567a18b478065f1a91b95622a0-Paper-Datasets_and_Benchmarks.pdf)   |
+|  Books-History  |  41,551  |  358,574  |  12   |  E-Commerce   |   Node   |   Node Classification    | [URL](https://github.com/sktsherlock/TAG-Benchmark) [Paper](https://papers.neurips.cc/paper_files/paper/2023/file/37d00f567a18b478065f1a91b95622a0-Paper-Datasets_and_Benchmarks.pdf)   |
+| Ele-Computers | 87,229  |  721,081  |  10  |  E-Commerce   |   Node   |   Node Classification    | [URL](https://github.com/sktsherlock/TAG-Benchmark) [Paper](https://papers.neurips.cc/paper_files/paper/2023/file/37d00f567a18b478065f1a91b95622a0-Paper-Datasets_and_Benchmarks.pdf)   |
+|  Ele-Photo  |  48,362  |  500,928  |  12   |  E-Commerce   |   Node   |   Node Classification    | [URL](https://github.com/sktsherlock/TAG-Benchmark) [Paper](https://papers.neurips.cc/paper_files/paper/2023/file/37d00f567a18b478065f1a91b95622a0-Paper-Datasets_and_Benchmarks.pdf)   |
+|  Sports-Fitness  |  173,055  |  1,773,500  |  13   |  E-Commerce   |   Node   |   Node Classification    | [URL](https://github.com/sktsherlock/TAG-Benchmark) [Paper](https://papers.neurips.cc/paper_files/paper/2023/file/37d00f567a18b478065f1a91b95622a0-Paper-Datasets_and_Benchmarks.pdf)   |
+|  CitationV8  |  1,106,759  |  6,120,897  |  -   |  Academic   |   Node   |   Link Prediction    | [URL](https://github.com/sktsherlock/TAG-Benchmark) [Paper](https://papers.neurips.cc/paper_files/paper/2023/file/37d00f567a18b478065f1a91b95622a0-Paper-Datasets_and_Benchmarks.pdf)   |
+|  GoodReads  | 676,084 |  8,582,324  |  -   |  E-Commerce   |   Node   |   Link Prediction    | [URL](https://github.com/sktsherlock/TAG-Benchmark) [Paper](https://papers.neurips.cc/paper_files/paper/2023/file/37d00f567a18b478065f1a91b95622a0-Paper-Datasets_and_Benchmarks.pdf)   |
+| Cora | 2,708 | 21,112  |  | Co-citation | Node&Edge |  |[URL](https://github.com/JiaruiFeng/TAGLAS) [Paper](https://arxiv.org/abs/2406.14683)  |
+| PubMed | 19,717 |  44,338 |  |  Co-citation | Node&Edge |  |[URL](https://github.com/JiaruiFeng/TAGLAS) [Paper](https://arxiv.org/abs/2406.14683)  |
+| ArXiv | 169,343 |  1,166,243 |  |  Citation | Node&Edge |  |[URL](https://github.com/JiaruiFeng/TAGLAS) [Paper](https://arxiv.org/abs/2406.14683)  |
+| WikiCS | 11,701 | 216,123  |  |  Wikipedia page | Node&Edge |  |[URL](https://github.com/JiaruiFeng/TAGLAS) [Paper](https://arxiv.org/abs/2406.14683)  |
+| Product-subset | 54,025 | 144,638  |  | Co-purchase  | Node&Edge |  |[URL](https://github.com/JiaruiFeng/TAGLAS) [Paper](https://arxiv.org/abs/2406.14683)  |
+| FB15K237 | 14,541 | 310,116  |  |  Knowledge graph | Node&Edge |  |[URL](https://github.com/JiaruiFeng/TAGLAS) [Paper](https://arxiv.org/abs/2406.14683)  |
+| WN18RR | 40,943 |  93,003 |  |  Knowledge graph | Node&Edge |  |[URL](https://github.com/JiaruiFeng/TAGLAS) [Paper](https://arxiv.org/abs/2406.14683)  |
+| MovieLens-1M | 9,923 | 2,000,418  |  | Moive rating  | Node&Edge | Recommendation |[URL](https://github.com/JiaruiFeng/TAGLAS) [Paper](https://arxiv.org/abs/2406.14683)  |
+|  |  |   |  |   |  |  |[URL]() [Paper]()  |
+
+
 
 ## Multi-Modal Graphs
+
+## Graph-level Datasets
+
+[Plain Graphs](https://chrsmrrs.github.io/datasets/docs/datasets/)
+[Text-Attributed Graphs](https://arxiv.org/pdf/2406.14683)
 
 ## Dataset Repositories
 
