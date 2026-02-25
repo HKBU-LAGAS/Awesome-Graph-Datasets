@@ -159,7 +159,19 @@ Welcome to cite our paper if you publish results based on our preprocessed datas
 | MovieLens-1M | 9,923 | 2,000,418  |  | Moive rating  | Node&Edge | Recommendation |[URL](https://github.com/JiaruiFeng/TAGLAS) [Paper](https://arxiv.org/abs/2406.14683)  |
 |  |  |   |  |   |  |  |[URL]() [Paper]()  |
 
+More in [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10697304#page=7.78), [paper](https://arxiv.org/pdf/2405.16800), [paper](https://arxiv.org/abs/2503.04822)
 
+Textual-Edge Graphs in [paper](https://arxiv.org/pdf/2406.10310), [paper](https://arxiv.org/abs/2405.16606)
+
+Bipartite Textual-Edge Graphs in [paper](https://arxiv.org/pdf/2302.11050), [paper](https://arxiv.org/abs/2504.04861)
+
+Heterogeneous Text-Attributed Graphs in [paper](https://arxiv.org/abs/2205.10282), [paper](https://arxiv.org/pdf/2412.08937), [paper](https://arxiv.org/pdf/2508.15392)
+
+Multiplex Text-Attributed Graphs in [paper](https://arxiv.org/abs/2310.06684)
+
+Text-Attributed Hypergraph [paper](https://arxiv.org/abs/2402.07309), [paper](https://arxiv.org/pdf/2508.03104)
+
+Will update datasets for anomaly detection, question-answering, etc.
 
 ## Multi-Modal Graphs
 
