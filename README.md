@@ -175,6 +175,21 @@ Will update datasets for anomaly detection, question-answering, etc.
 
 ## Multi-Modal Graphs
 
+| Name    | #nodes    | #edges    | #labels |    Modality | Task     |   Source       | 
+|-------  |---------  |---------  |---------|-----------|-----------|----------- |
+|   Movies    |   16,672    |   218,390    |   20   |  Text, Vision | Node Classification  |  [URL](https://github.com/sktsherlock/MAGB) [Paper](https://dl.acm.org/doi/epdf/10.1145/3711896.3737404)  |
+|   Toys    |   20,695    |   126,886    |   18   |  Text, Vision | Node Classification  |  [URL](https://github.com/sktsherlock/MAGB) [Paper](https://dl.acm.org/doi/epdf/10.1145/3711896.3737404)  |
+|   Grocery    |   17,074    |   171,340    |   20   |  Text, Vision | Node Classification  |  [URL](https://github.com/sktsherlock/MAGB) [Paper](https://dl.acm.org/doi/epdf/10.1145/3711896.3737404)  |
+|   Reddit-S    |   15,894    |   566,160    |   20   |  Text, Vision |  Node Classification |  [URL](https://github.com/sktsherlock/MAGB) [Paper](https://dl.acm.org/doi/epdf/10.1145/3711896.3737404)  |
+|   Reddit-M    |   99,638    |   1,167,188    |   50   |  Text, Vision | Node Classification |  [URL](https://github.com/sktsherlock/MAGB) [Paper](https://dl.acm.org/doi/epdf/10.1145/3711896.3737404)  |
+| Goodreads-NC   | 685,294  |  7,235,084  |   -  |   Text, Vision  | Node Classification  | [URL](https://mm-graph-benchmark.github.io/) [Paper](https://arxiv.org/pdf/2406.16321) |
+|Ele-fashion | 97,766 | 199,602  |   -  |   Text, Vision  | Node Classification  | [URL](https://mm-graph-benchmark.github.io/) [Paper](https://arxiv.org/pdf/2406.16321) |
+|  Amazon-Sports  |  50,250   |   356,202  |   -  |   Text, Vision  | Link Prediction  | [URL](https://mm-graph-benchmark.github.io/) [Paper](https://arxiv.org/pdf/2406.16321) |
+|  Amazon-Cloth  | 125,839  |  951,271  |   -  |   Text, Vision  | Link Prediction  | [URL](https://mm-graph-benchmark.github.io/) [Paper](https://arxiv.org/pdf/2406.16321) |
+|  Goodreads-LP  | 636,502  |  3,437,017  |   -  |   Text, Vision  | Link Prediction  | [URL](https://mm-graph-benchmark.github.io/) [Paper](https://arxiv.org/pdf/2406.16321) |
+
+More datasets in [paper](https://arxiv.org/pdf/2211.15158), [paper](https://arxiv.org/pdf/2506.09738), [paper](https://arxiv.org/pdf/2402.05322), [paper](https://dl.acm.org/doi/10.1145/3343031.3351034)
+
 ## Graph-level Datasets
 
 [Plain Graphs](https://chrsmrrs.github.io/datasets/docs/datasets/)
