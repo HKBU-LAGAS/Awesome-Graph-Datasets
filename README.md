@@ -171,6 +171,8 @@ Multiplex Text-Attributed Graphs in [paper](https://arxiv.org/abs/2310.06684)
 
 Text-Attributed Hypergraph [paper](https://arxiv.org/abs/2402.07309), [paper](https://arxiv.org/pdf/2508.03104)
 
+Dynamic Text-Attributed Graph [paper](https://arxiv.org/pdf/2507.03267)
+
 Will update datasets for anomaly detection, question-answering, etc.
 
 ## Multi-Modal Graphs
