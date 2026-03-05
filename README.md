@@ -56,6 +56,30 @@ Welcome to cite our paper if you publish results based on our preprocessed datas
 
 ### Signed Graphs
 
+| Name    | #nodes    | #positive-edges    | #negative-edges | #attributes | #labels  | bipartite  |   Source       | 
+|-------  |---------  |---------  |---------|-----------|-----------|----------- |----------- |
+|  Epinions  |      |       |       |       |        |        |   [link](https://snap.stanford.edu/data/soc-sign-epinions.html) [link](https://www.cs.uoi.gr/~apappas/projects/SocialNetworks/)   |
+|  Wikipedia   |      |       |       |       |        |        |   [link](https://snap.stanford.edu/data/wiki-Elec.html)  [link](https://www.cs.uoi.gr/~apappas/projects/SocialNetworks/)  |
+|  Slashdot   |      |       |       |       |        |        |   [link](https://snap.stanford.edu/data/soc-sign-Slashdot090221.html) [link](https://www.cs.uoi.gr/~apappas/projects/SocialNetworks/)   |
+|  Bitcoin   |      |       |       |       |        |        |   [link](https://snap.stanford.edu/data/soc-sign-bitcoin-otc.html)    |
+|   WikiSigned  |      |       |       |       |        |        |   [link](http://konect.cc/networks/wikisigned-k2/)    |
+|  Reddit   |      |       |       |       |        |        |   [link](https://snap.stanford.edu/data/soc-RedditHyperlinks.html) [link](https://www.kaggle.com/datasets/josephleake/huge-collection-of-reddit-votes) [link](https://courses.cs.washington.edu/courses/cse547/19sp/data.html) [link](https://www.cs.uoi.gr/~apappas/projects/SocialNetworks/)   |
+|  ADJNet   |      |       |       |       |        |        |   [link](https://arxiv.org/pdf/1702.06819.pdf)    |
+|  SCOTUS   |      |       |       |       |        |        |   [link](https://arxiv.org/pdf/1702.06819.pdf)    |
+|  Bonanza   |      |       |       |       |        |    Yes    |   [link](https://github.com/tylersnetwork/signed_bipartite_networks) [link](https://github.com/huangjunjie-cs/SBGNN)   |
+|   U.S. Senate  |      |       |       |       |        |    Yes    |   [link](https://github.com/tylersnetwork/signed_bipartite_networks) [link](https://github.com/huangjunjie-cs/SBGNN)   |
+|  U.S. House   |      |       |       |       |        |    Yes    |   [link](https://github.com/tylersnetwork/signed_bipartite_networks) [link](https://github.com/huangjunjie-cs/SBGNN)   |
+|   Review  |     |       |       |       |        |    Yes    |   [link](https://github.com/Alex-Zeyu/SBGCL) [link](https://github.com/huangjunjie-cs/SBGNN)    |
+|  MovieLens-1M   |      |       |       |       |        |    Yes    |   [link](https://github.com/Alex-Zeyu/SBGCL)    |
+|   Amazon-Book  |      |       |       |       |        |    Yes    |   [link](https://github.com/Alex-Zeyu/SBGCL)    |
+|  Amazon-CDs   |      |       |       |       |        |    Yes    |   [link](https://github.com/StupidThree/SIGformer)    |
+|  Amazon-Music   |      |       |       |       |        |    Yes    |   [link](https://github.com/StupidThree/SIGformer)    |
+|  KuaiRec   |      |       |       |       |        |    Yes    |   [link](https://github.com/StupidThree/SIGformer)    |
+|  KuaiRand   |      |       |       |       |        |    Yes    |   [link](https://github.com/StupidThree/SIGformer)    |
+
+
+
+
 ### Attributed Graphs
 
 | Name  | Type      | #nodes    | #edges | #attributes  | #labels | URL       | 
