@@ -8,17 +8,20 @@
 
 </div>
 
-- [📑 Dataset List](#-paper-list)
-  - [Plain Graphs](#-plain-graphs)
-  - [Temporal Graphs](#-temporal-graphs)
-  - [Signed Graphs](#-signed-graphs)
-  - [Attributed Graphs](#-attributed-graphs)
-  - [Bipartite Graphs](#-bipartite-graphs)
-  - [Bipartite Graphs](#-bipartite-graphs)
-  - [Text-Attributed Graphs](#-text-attributed-graphs)
-  - [Multimodal Graphs](#-multimodal-graphs)
-  - [Graph-level Datasets](#-graph-level-datasets)
-- [Dataset Repositories](#-dataset-repositories)
+## Contents
+
+- [Contents](#contents)
+- [📑 Dataset List](#-dataset-list)
+  - [Plain Graphs](#plain-graphs)
+  - [Temporal Graphs](#temporal-graphs)
+  - [Signed Graphs](#signed-graphs)
+  - [Attributed Graphs](#attributed-graphs)
+  - [Bipartite Graphs](#bipartite-graphs)
+  - [Bipartite Graphs](#bipartite-graphs)
+  - [Text-Attributed Graphs](#text-attributed-graphs)
+  - [Multimodal Graphs](#multimodal-graphs)
+  - [Graph-level Datasets](#graph-level-datasets)
+- [Dataset Repositories](#dataset-repositories)
 
 ## 📑 Dataset List
 
@@ -184,7 +187,7 @@ Welcome to cite our paper if you publish results based on our preprocessed datas
 }
 ```
 
-## Text-Attributed Graphs
+### Text-Attributed Graphs
 | Name    |   \#nodes   |  \#edges  | \#labels |  Domain   |   Node/Edge Text | Task  |Source |
 |-------  |---------  |--------- |---------|---------|---------  |---------  |---------  |
 | ogbn-arxiv-TA | 169,343 | 1,166,243 | 40 | Academic | Node | Node Classification | [URL](https://github.com/sktsherlock/TAG-Benchmark) [Paper](https://papers.neurips.cc/paper_files/paper/2023/file/37d00f567a18b478065f1a91b95622a0-Paper-Datasets_and_Benchmarks.pdf) |
@@ -221,7 +224,7 @@ Dynamic Text-Attributed Graph [paper](https://arxiv.org/pdf/2507.03267) [paper](
 
 Will update datasets for anomaly detection, question-answering, etc.
 
-## Multi-Modal Graphs
+### Multi-Modal Graphs
 
 | Name    | #nodes    | #edges    | #labels |    Modality | Task     |   Source       | 
 |-------  |---------  |---------  |---------|-----------|-----------|----------- |
@@ -238,7 +241,7 @@ Will update datasets for anomaly detection, question-answering, etc.
 
 More datasets in [paper](https://arxiv.org/pdf/2211.15158), [paper](https://arxiv.org/pdf/2506.09738), [paper](https://arxiv.org/pdf/2402.05322), [paper](https://dl.acm.org/doi/10.1145/3343031.3351034)
 
-## Graph-level Datasets
+### Graph-level Datasets
 
 [Plain Graphs](https://chrsmrrs.github.io/datasets/docs/datasets/)
 [Text-Attributed Graphs](https://arxiv.org/pdf/2406.14683)
