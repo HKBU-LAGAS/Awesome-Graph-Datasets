@@ -1,5 +1,17 @@
 # Awesome-Graph-Datasets
 
+- [📑 Dataset List](#-paper-list)
+  - [Plain Graphs](#-plain-graphs)
+  - [Temporal Graphs](#-temporal-graphs)
+  - [Signed Graphs](#-signed-graphs)
+  - [Attributed Graphs](#-attributed-graphs)
+  - [Bipartite Graphs](#-bipartite-graphs)
+  - [Bipartite Graphs](#-bipartite-graphs)
+  - [Text-Attributed Graphs](#-text-attributed-graphs)
+  - [Multimodal Graphs](#-multimodal-graphs)
+  - [Graph-level Datasets](#-graph-level-datasets)
+- [Dataset Repositories](#-dataset-repositories)
+
 ### Plain Graphs
 
 | Name    | #nodes    | #edges    | #labels | Type        | URL       | 
