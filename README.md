@@ -4,7 +4,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 
-📌 Pinned
+📌 We are actively collecting openly available graph datasets of diverse types for research purposes. This repository will be updated regularly.
 
 </div>
 
