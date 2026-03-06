@@ -1,4 +1,12 @@
-# Awesome-Graph-Datasets
+<h1 align="center">🌟 Awesome Graph Datasets 🌟</h1>
+<div align="center">
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
+
+📌 Pinned
+
+</div>
 
 - [📑 Dataset List](#-paper-list)
   - [Plain Graphs](#-plain-graphs)
@@ -11,6 +19,8 @@
   - [Multimodal Graphs](#-multimodal-graphs)
   - [Graph-level Datasets](#-graph-level-datasets)
 - [Dataset Repositories](#-dataset-repositories)
+
+## 📑 Dataset List
 
 ### Plain Graphs
 
