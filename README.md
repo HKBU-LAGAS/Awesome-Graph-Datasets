@@ -86,26 +86,26 @@ Welcome to cite our paper if you publish results based on our preprocessed datas
 
 ### Signed Graphs
 
-| Name    | #nodes    | #positive-edges    | #negative-edges | #attributes | #labels  | bipartite  |   Source       | 
-|-------  |---------  |---------  |---------|-----------|-----------|----------- |----------- |
-|  Epinions  |      |       |       |       |        |        |   [link](https://snap.stanford.edu/data/soc-sign-epinions.html) [link](https://www.cs.uoi.gr/~apappas/projects/SocialNetworks/)   |
-|  Wikipedia   |      |       |       |       |        |        |   [link](https://snap.stanford.edu/data/wiki-Elec.html)  [link](https://www.cs.uoi.gr/~apappas/projects/SocialNetworks/)  |
-|  Slashdot   |      |       |       |       |        |        |   [link](https://snap.stanford.edu/data/soc-sign-Slashdot090221.html) [link](https://www.cs.uoi.gr/~apappas/projects/SocialNetworks/)   |
-|  Bitcoin   |      |       |       |       |        |        |   [link](https://snap.stanford.edu/data/soc-sign-bitcoin-otc.html)    |
-|   WikiSigned  |      |       |       |       |        |        |   [link](http://konect.cc/networks/wikisigned-k2/)    |
-|  Reddit   |      |       |       |       |        |        |   [link](https://snap.stanford.edu/data/soc-RedditHyperlinks.html) [link](https://www.kaggle.com/datasets/josephleake/huge-collection-of-reddit-votes) [link](https://courses.cs.washington.edu/courses/cse547/19sp/data.html) [link](https://www.cs.uoi.gr/~apappas/projects/SocialNetworks/)   |
-|  ADJNet   |      |       |       |       |        |        |   [link](https://arxiv.org/pdf/1702.06819.pdf)    |
-|  SCOTUS   |      |       |       |       |        |        |   [link](https://arxiv.org/pdf/1702.06819.pdf)    |
-|  Bonanza   |      |       |       |       |        |    Yes    |   [link](https://github.com/tylersnetwork/signed_bipartite_networks) [link](https://github.com/huangjunjie-cs/SBGNN)   |
-|   U.S. Senate  |      |       |       |       |        |    Yes    |   [link](https://github.com/tylersnetwork/signed_bipartite_networks) [link](https://github.com/huangjunjie-cs/SBGNN)   |
-|  U.S. House   |      |       |       |       |        |    Yes    |   [link](https://github.com/tylersnetwork/signed_bipartite_networks) [link](https://github.com/huangjunjie-cs/SBGNN)   |
-|   Review  |     |       |       |       |        |    Yes    |   [link](https://github.com/Alex-Zeyu/SBGCL) [link](https://github.com/huangjunjie-cs/SBGNN)    |
-|  MovieLens-1M   |      |       |       |       |        |    Yes    |   [link](https://github.com/Alex-Zeyu/SBGCL)    |
-|   Amazon-Book  |      |       |       |       |        |    Yes    |   [link](https://github.com/Alex-Zeyu/SBGCL)    |
-|  Amazon-CDs   |      |       |       |       |        |    Yes    |   [link](https://github.com/StupidThree/SIGformer)    |
-|  Amazon-Music   |      |       |       |       |        |    Yes    |   [link](https://github.com/StupidThree/SIGformer)    |
-|  KuaiRec   |      |       |       |       |        |    Yes    |   [link](https://github.com/StupidThree/SIGformer)    |
-|  KuaiRand   |      |       |       |       |        |    Yes    |   [link](https://github.com/StupidThree/SIGformer)    |
+| Name | #nodes | #positive-edges | #negative-edges | #attributes | #labels | Bipartite | Notes | Source |
+|---|---:|---:|---:|---|---|---|---|---|
+| Epinions | 131,828 | 717,667 | 123,705 | - | - | No | SNAP raw directed edges; also matches the sign2vec paper table. | [SNAP](https://snap.stanford.edu/data/soc-sign-epinions.html) [UOI](https://www.cs.uoi.gr/~apappas/projects/SocialNetworks/) [paper](https://arxiv.org/pdf/1702.06819.pdf) |
+| Wikipedia | 7,118 | 83,962 | 23,118 | - | - | No | SNAP wikiElec signed votes only; 6,960 neutral votes excluded from signed edges. | [SNAP](https://snap.stanford.edu/data/wiki-Elec.html) [UOI](https://www.cs.uoi.gr/~apappas/projects/SocialNetworks/) |
+| Slashdot | 82,140 | 425,072 | 124,130 | - | - | No | SNAP raw directed edges. | [SNAP](https://snap.stanford.edu/data/soc-sign-Slashdot090221.html) [UOI](https://www.cs.uoi.gr/~apappas/projects/SocialNetworks/) |
+| Bitcoin OTC | 5,881 | 32,029 | 3,563 | - | - | No | SNAP weighted ratings binarized by rating sign. | [SNAP](https://snap.stanford.edu/data/soc-sign-bitcoin-otc.html) |
+| WikiSigned | 7,220 | 83,717 | 28,422 | - | - | No | sign2vec Wiki/KONECT-style preprocessed count. | [KONECT](http://konect.cc/networks/wikisigned-k2/) [paper](https://arxiv.org/pdf/1702.06819.pdf) |
+| Reddit | 13,749 | 26,413 | 34,106 | 29 edge features | - | No | UOI RedditGraphs `all-new` graph; SNAP Reddit Hyperlink is a different 55,863-node / 858,490-edge temporal attributed subreddit graph. | [SNAP](https://snap.stanford.edu/data/soc-RedditHyperlinks.html) [Kaggle](https://www.kaggle.com/datasets/josephleake/huge-collection-of-reddit-votes) [UW](https://courses.cs.washington.edu/courses/cse547/19sp/data.html) [UOI](https://www.cs.uoi.gr/~apappas/projects/SocialNetworks/) |
+| ADJNet | 4,579 | 10,708 | 7,044 | - | 2 | No | Undirected adjective network; binary node labels reported in the paper. | [paper](https://arxiv.org/pdf/1702.06819.pdf) |
+| SCOTUS | 28,305 | 43,781 | 42,102 | - | 2 | No | Directed Supreme Court citation network; binary node labels reported in the paper. | [paper](https://arxiv.org/pdf/1702.06819.pdf) |
+| Bonanza | 9,892 | 35,805 | 738 | - | - | Yes | 7,919 users + 1,973 sellers; raw signed-bipartite file count. | [data](https://github.com/tylersnetwork/signed_bipartite_networks) [SBGNN](https://github.com/huangjunjie-cs/SBGNN) [paper](https://arxiv.org/pdf/2108.09638.pdf) |
+| U.S. Senate | 1,201 | 14,979 | 12,104 | - | - | Yes | 145 legislators + 1,056 bills; raw signed-bipartite file count. | [data](https://github.com/tylersnetwork/signed_bipartite_networks) [SBGNN](https://github.com/huangjunjie-cs/SBGNN) [paper](https://arxiv.org/pdf/2108.09638.pdf) |
+| U.S. House | 1,796 | 61,720 | 52,658 | - | - | Yes | 515 legislators + 1,281 bills; raw signed-bipartite file count. | [data](https://github.com/tylersnetwork/signed_bipartite_networks) [SBGNN](https://github.com/huangjunjie-cs/SBGNN) [paper](https://arxiv.org/pdf/2108.09638.pdf) |
+| Review | 486 | 464 | 706 | - | - | Yes | Final Review repository count: 182 reviewers + 304 papers. | [SBGCL](https://github.com/Alex-Zeyu/SBGCL) [SBGNN](https://github.com/huangjunjie-cs/SBGNN) [paper](https://arxiv.org/pdf/2108.09638.pdf) |
+| MovieLens-1M | 9,992 | 575,281 | 424,928 | - | - | Yes | 6,040 users + 3,952 movies; SBGCL split data count. | [SBGCL](https://github.com/Alex-Zeyu/SBGCL) [paper](https://openreview.net/pdf?id=Y3fQxfiQGZ) |
+| Amazon-Book | 73,857 | 1,579,974 | 380,700 | - | - | Yes | 35,736 users + 38,121 items; SBGCL split data count. | [SBGCL](https://github.com/Alex-Zeyu/SBGCL) [paper](https://openreview.net/pdf?id=Y3fQxfiQGZ) |
+| Amazon-CDs | 97,731 | 731,734 | 163,532 | - | - | Yes | 51,267 users + 46,464 items; SIGformer ratings >=4 treated as positive. | [SIGformer](https://github.com/StupidThree/SIGformer) |
+| Amazon-Music | 5,970 | 40,043 | 9,832 | - | - | Yes | 3,472 users + 2,498 items; SIGformer ratings >=4 treated as positive. | [SIGformer](https://github.com/StupidThree/SIGformer) |
+| KuaiRec | 4,738 | 36,560 | 217,423 | - | - | Yes | 1,411 users + 3,327 items; SIGformer binary interaction labels. | [SIGformer](https://github.com/StupidThree/SIGformer) |
+| KuaiRand | 21,347 | 116,679 | 146,421 | - | - | Yes | 16,974 users + 4,373 items; SIGformer binary interaction labels. | [SIGformer](https://github.com/StupidThree/SIGformer) |
 
 
 
